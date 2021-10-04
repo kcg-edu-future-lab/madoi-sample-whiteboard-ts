@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+#whiteboard canvas{
+    margin-top: 1rem;
+    border: solid 1px;
+}
+</style>
+</head>
+<body>
+<div id="whiteboard">
+    <div>
+        Color: <input name="foreground-color" type="color">
+        Size:  <input name="pen-size" type="number" value="2" min="1" max="10" step="1" required>
+    </div>
+    <canvas width="380px" height="360px"></canvas>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
