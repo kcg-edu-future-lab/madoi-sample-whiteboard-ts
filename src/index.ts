@@ -12,7 +12,7 @@ interface Drawing{
     size: number, color: string
 }
 
-@ShareClass({snapshot: true})
+@ShareClass({className: "WhiteBoard"})
 export class WhiteBoard {
     private boardElm: HTMLElement;
     private colorInput: HTMLInputElement;
